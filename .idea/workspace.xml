@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f47572c-76d9-430e-83bb-2bbdaa279802" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oca-sample/target/classes/recipe4/SimpleJavadoc.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oca-sample/target/test-classes/recipe4/SimpleJavadocTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oca-sample/target/test-classes/recipe3/StringConversionTest.class" afterPath="$PROJECT_DIR$/oca-sample/target/test-classes/recipe3/StringConversionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java" afterPath="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java" />
     </list>
     <ignored path="java-se8-student-guide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,8 +103,8 @@
       <file leaf-file-name="StringConversionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71145374">
-              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.6740088">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1068,7 +1062,7 @@
       <workItem from="1456071531989" duration="153000" />
       <workItem from="1456071706324" duration="1113000" />
       <workItem from="1456073124508" duration="311000" />
-      <workItem from="1456073457889" duration="12584000" />
+      <workItem from="1456073457889" duration="12864000" />
     </task>
     <servers />
   </component>
@@ -1105,7 +1099,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19169000" />
+    <option name="totallyTimeSpent" value="19449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1400,8 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71145374">
-          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.6740088">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>
