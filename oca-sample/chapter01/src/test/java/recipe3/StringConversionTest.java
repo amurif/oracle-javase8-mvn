@@ -20,7 +20,7 @@ public class StringConversionTest {
     }
 
     @Test
-    public void testtConvertFromString() throws Exception {
+    public void testConvertFromString() throws Exception {
         assertEquals(3.14, Double.valueOf(stringConversion.getStringValue()),0.01);
     }
 
