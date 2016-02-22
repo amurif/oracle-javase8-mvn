@@ -26,9 +26,17 @@
         <module name="demo" />
         <module name="sample" />
       </profile>
+      <profile default="false" name="Annotation profile for chapter02" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="chapter02" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter01" target="1.5" />
+      <module name="chapter02" target="1.8" />
       <module name="demo" target="1.5" />
       <module name="java-se8-student-guide" target="1.8" />
       <module name="oca-sample" target="1.8" />

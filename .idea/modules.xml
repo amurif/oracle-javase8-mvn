@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/oca-sample/chapter02/chapter02.iml" filepath="$PROJECT_DIR$/oca-sample/chapter02/chapter02.iml" group="oca-sample and modules" />
       <module fileurl="file://$PROJECT_DIR$/java-se8-student-guide.iml" filepath="$PROJECT_DIR$/java-se8-student-guide.iml" />
       <module fileurl="file://$PROJECT_DIR$/oca-sample/oca-sample.iml" filepath="$PROJECT_DIR$/oca-sample/oca-sample.iml" group="oca-sample and modules" />
       <module fileurl="file://$PROJECT_DIR$/ocp-sample/ocp-sample.iml" filepath="$PROJECT_DIR$/ocp-sample/ocp-sample.iml" />
