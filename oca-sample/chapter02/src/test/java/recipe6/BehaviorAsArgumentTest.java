@@ -26,6 +26,6 @@ public class BehaviorAsArgumentTest {
 
     @After
     public void tearDown() throws Exception {
-
+        behaviorAsArgument = null;
     }
 }

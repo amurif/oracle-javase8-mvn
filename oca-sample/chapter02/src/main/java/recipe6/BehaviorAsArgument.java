@@ -41,8 +41,4 @@ public class BehaviorAsArgument extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
-    public Group getRoot() {
-        return root;
-    }
 }
