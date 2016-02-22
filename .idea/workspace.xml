@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f47572c-76d9-430e-83bb-2bbdaa279802" name="Default" comment="" />
+    <list default="true" id="5f47572c-76d9-430e-83bb-2bbdaa279802" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oca-sample/target/classes/recipe4/SimpleJavadoc.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oca-sample/target/test-classes/recipe4/SimpleJavadocTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oca-sample/target/test-classes/recipe3/StringConversionTest.class" afterPath="$PROJECT_DIR$/oca-sample/target/test-classes/recipe3/StringConversionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="java-se8-student-guide.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,17 +91,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringConversion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringConversion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oca-sample/chapter01/src/main/java/recipe3/StringConversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7378855">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding>
                 <element signature="e#294#295#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringConversionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.71145374">
+              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,9 +170,9 @@
         <option value="$PROJECT_DIR$/oca-sample/chapter01/src/main/java/recipe2/VariableVisibility.java" />
         <option value="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe2/VariableVisibilityTest.java" />
         <option value="$PROJECT_DIR$/oca-sample/chapter01/src/main/java/recipe3/StringConversion.java" />
-        <option value="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java" />
         <option value="$PROJECT_DIR$/oca-sample/chapter01/src/main/java/recipe4/SimpleJavadoc.java" />
         <option value="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe4/SimpleJavadocTest.java" />
+        <option value="$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java" />
       </list>
     </option>
   </component>
@@ -382,6 +400,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-se8-student-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oracle-javase8-mvn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oca-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipe1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -400,8 +452,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="recipe4" />
       <recent name="recipe3" />
+      <recent name="recipe4" />
       <recent name="recipe2" />
       <recent name="recipe1" />
     </key>
@@ -409,59 +461,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringConversionTest">
-    <configuration default="false" name="HelloMessageTest.testHelloMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="recipe1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="oca-sample" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="recipe1" />
-      <option name="MAIN_CLASS_NAME" value="recipe1.HelloMessageTest" />
-      <option name="METHOD_NAME" value="testHelloMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="VariableVisibilityTest.testVisibility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="recipe2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="oca-sample" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="recipe2" />
-      <option name="MAIN_CLASS_NAME" value="recipe2.VariableVisibilityTest" />
-      <option name="METHOD_NAME" value="testVisibility" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringConversionTest.testtConvertFromString">
     <configuration default="false" name="VariableVisibilityTest.testStaticVisibility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -528,6 +528,58 @@
       <option name="MAIN_CLASS_NAME" value="recipe3.StringConversionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringConversionTest.testConvertToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="recipe3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="oca-sample" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="recipe3" />
+      <option name="MAIN_CLASS_NAME" value="recipe3.StringConversionTest" />
+      <option name="METHOD_NAME" value="testConvertToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringConversionTest.testtConvertFromString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="recipe3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="oca-sample" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="recipe3" />
+      <option name="MAIN_CLASS_NAME" value="recipe3.StringConversionTest" />
+      <option name="METHOD_NAME" value="testtConvertFromString" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -985,19 +1037,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HelloMessageTest.testHelloMessage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest.testVisibility" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest.testStaticVisibility" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StringConversionTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest.testStaticVisibility" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StringConversionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringConversionTest.testConvertToString" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringConversionTest.testtConvertFromString" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StringConversionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest.testStaticVisibility" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest.testVisibility" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HelloMessageTest.testHelloMessage" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringConversionTest.testtConvertFromString" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringConversionTest.testConvertToString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringConversionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VariableVisibilityTest.testStaticVisibility" />
       </list>
     </recent_temporary>
   </component>
@@ -1016,7 +1068,7 @@
       <workItem from="1456071531989" duration="153000" />
       <workItem from="1456071706324" duration="1113000" />
       <workItem from="1456073124508" duration="311000" />
-      <workItem from="1456073457889" duration="11657000" />
+      <workItem from="1456073457889" duration="12584000" />
     </task>
     <servers />
   </component>
@@ -1033,31 +1085,31 @@
     <history-entry file="StringConversionTest - 2016.02.22 at 17h 23m 36s.xml">
       <configuration name="StringConversionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringConversionTest_testConvertToString - 2016.02.22 at 18h 03m 58s.xml">
+      <configuration name="StringConversionTest.testConvertToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringConversionTest_testConvertToString - 2016.02.22 at 18h 04m 41s.xml">
+      <configuration name="StringConversionTest.testConvertToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringConversionTest_testConvertToString - 2016.02.22 at 18h 05m 15s.xml">
+      <configuration name="StringConversionTest.testConvertToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringConversionTest_testtConvertFromString - 2016.02.22 at 18h 11m 34s.xml">
+      <configuration name="StringConversionTest.testtConvertFromString" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="VariableVisibilityTest - 2016.02.22 at 17h 04m 26s.xml">
       <configuration name="VariableVisibilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VariableVisibilityTest_testStaticVisibility - 2016.02.22 at 17h 01m 44s.xml">
-      <configuration name="VariableVisibilityTest.testStaticVisibility" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VariableVisibilityTest_testStaticVisibility - 2016.02.22 at 17h 02m 25s.xml">
-      <configuration name="VariableVisibilityTest.testStaticVisibility" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VariableVisibilityTest_testStaticVisibility - 2016.02.22 at 17h 03m 48s.xml">
-      <configuration name="VariableVisibilityTest.testStaticVisibility" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VariableVisibilityTest_testStaticVisibility - 2016.02.22 at 17h 04m 12s.xml">
-      <configuration name="VariableVisibilityTest.testStaticVisibility" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VariableVisibilityTest_testStaticVisibility - 2016.02.22 at 17h 04m 20s.xml">
       <configuration name="VariableVisibilityTest.testStaticVisibility" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18242000" />
+    <option name="totallyTimeSpent" value="19169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1066,7 +1118,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252688" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17544988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35215053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35215053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1097,7 +1149,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1335,14 +1387,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oca-sample/chapter01/src/main/java/recipe3/StringConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7378855">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oca-sample/chapter01/src/test/java/recipe3/StringConversionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71145374">
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
