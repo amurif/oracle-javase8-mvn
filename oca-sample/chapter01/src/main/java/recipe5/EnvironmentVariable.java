@@ -7,11 +7,11 @@ import java.util.Map;
 /**
  * Created by O26 on 22/02/2016.
  */
-public class ReadAllEnvVariables {
+public class EnvironmentVariable {
 
     Map<String, String> vars;
 
-    public ReadAllEnvVariables() {
+    public EnvironmentVariable() {
         vars = System.getenv();
     }
 
@@ -21,5 +21,9 @@ public class ReadAllEnvVariables {
             result.add(vars.get(var));
         }
         return result;
+    }
+
+    public Map<String, String> getVars() {
+        return vars;
     }
 }
