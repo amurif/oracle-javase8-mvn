@@ -61,35 +61,14 @@ public class FamilyVacationsTest {
         }
     }
 
-    private Month validateMonthValue(String someMonth) {
-        Optional<Month> validMonthOptional;
-        try {
-            validMonthOptional = Optional.of(Month.valueOf(someMonth.toUpperCase()));
-        } catch (IllegalArgumentException exc) {
-            System.out.printf("%s is not a valid month.%n", someMonth);
-            throw exc;    // Rethrow the exception.
-        }
-        return validMonthOptional.get();
-    }
-
-    private LocalDate validateLocalDate(Month someMonth, int someDay) {
-        Optional<LocalDate> localDateOptional;
-        try {
-            localDateOptional = Optional.of(LocalDate.of(Year.now().getValue(), someMonth, someDay));
-        } catch (DateTimeException exc) {
-            System.out.printf("%s %s is not a valid date.%n", someMonth, someDay);
-            throw exc;     // Rethrow the exception.
-        }
-        return localDateOptional.get();
-    }
 
     @Before
     public void setUp() throws Exception {
-        Month springBreakMonth = validateMonthValue("APRIL");
-        LocalDate springBreakDate = validateLocalDate(springBreakMonth, 5);
+        Month springBreakMonth = DateTimeUtil.validateMonthValue("APRIL");
+        LocalDate springBreakDate = DateTimeUtil.validateLocalDate(springBreakMonth, 5);
 
-        Month familyReunionMonth = validateMonthValue("MAY");
-        LocalDate familyReunionDate = validateLocalDate(familyReunionMonth, 29);
+        Month familyReunionMonth = DateTimeUtil.validateMonthValue("MAY");
+        LocalDate familyReunionDate = DateTimeUtil.validateLocalDate(familyReunionMonth, 29);
 
         dates = new ArrayList<>();
         dates.add(springBreakDate);

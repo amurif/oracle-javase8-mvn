@@ -47,40 +47,18 @@ public class FamilyBirthdaysTest {
         assertEquals("2016-05-29", joeBirthday.getDate().toString());
     }
 
-    private Month validateMonthValue(String someMonth){
-        Optional<Month> validMonthOptional;
-        try {
-            validMonthOptional = Optional.of(Month.valueOf(someMonth.toUpperCase()));
-        } catch (IllegalArgumentException exc) {
-            System.out.printf("%s is not a valid month.%n", someMonth);
-            throw exc;    // Rethrow the exception.
-        }
-        return validMonthOptional.get();
-    }
-
-    private LocalDate validateLocalDate(Month someMonth, int someDay){
-        Optional<LocalDate> localDateOptional;
-        try {
-            localDateOptional = Optional.of(LocalDate.of(Year.now().getValue(),someMonth, someDay));
-        } catch (DateTimeException exc) {
-            System.out.printf("%s %s is not a valid date.%n",someMonth, someDay);
-            throw exc;     // Rethrow the exception.
-        }
-        return localDateOptional.get();
-    }
-
     @Before
     public void setUp() throws Exception {
-        Month angieMonth = validateMonthValue("APRIL");
-        LocalDate angieDate =  validateLocalDate(angieMonth,3);
+        Month angieMonth = DateTimeUtil.validateMonthValue("APRIL");
+        LocalDate angieDate =  DateTimeUtil.validateLocalDate(angieMonth,3);
         angieBirthday = new FamilyBirthdays(angieMonth,angieDate);
 
-        Month sueMonth = validateMonthValue("JUNE");
-        LocalDate sueDate =  validateLocalDate(sueMonth,18);
+        Month sueMonth = DateTimeUtil.validateMonthValue("JUNE");
+        LocalDate sueDate =  DateTimeUtil.validateLocalDate(sueMonth,18);
         sueBirthday = new FamilyBirthdays(sueMonth,sueDate);
 
-        Month joeMonth = validateMonthValue("MAY");
-        LocalDate joeDate =  validateLocalDate(joeMonth,29);
+        Month joeMonth = DateTimeUtil.validateMonthValue("MAY");
+        LocalDate joeDate =  DateTimeUtil.validateLocalDate(joeMonth,29);
         joeBirthday = new FamilyBirthdays(joeMonth,joeDate);
     }
 
