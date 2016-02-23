@@ -86,6 +86,8 @@ public class FamilyBirthdaysTest {
 
     @After
     public void tearDown() throws Exception {
-
+        angieBirthday = null;
+        sueBirthday = null;
+        joeBirthday = null;
     }
 }
