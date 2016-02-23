@@ -1,6 +1,10 @@
 *.idea/
 .idea/
 *.iml
-*/target/
 */target
-/oca-sample/chapter02/target/
+*/target/
+/oca-sample/*/target/
+/ocp-sample/*/target/
+/*/*/target/
+.class
+*.class
