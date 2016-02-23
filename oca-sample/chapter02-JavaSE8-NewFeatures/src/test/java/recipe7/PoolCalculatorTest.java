@@ -30,6 +30,22 @@ public class PoolCalculatorTest {
         assertEquals("Gallons in the pool: ",22978.56, calculator.calculateGallons(volume),0.1);
     }
 
+    @Test
+    public void testDefaultCalculateVolumeRectangularPool(){
+        Double[] depthValues = {4D,8D};
+        Double[] measurementValues = {32D,16D};
+        double volume = calculator.calculateVolume(depthValues,measurementValues);
+        assertEquals("Default calulateVolume: ",3072.0,volume,0.1);
+    }
+
+    @Test
+    public void testDefaultCalculateVolumeCircularPool(){
+        Double[] depthValues = {4D,8D};
+        Double[] measurementValues = {32D};
+        double volume = calculator.calculateVolume(depthValues,measurementValues);
+        assertEquals("Default calulateVolume: ",19292.16,volume,0.01);
+    }
+
     @Before
     public void setUp() throws Exception {
         calculator = new PoolCalculator();

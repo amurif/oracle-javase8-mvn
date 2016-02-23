@@ -49,6 +49,4 @@ public interface Volume {
             return (radius * radius) * 3.14 * avgDepth;
         }
     }
-
-    ;
 }
