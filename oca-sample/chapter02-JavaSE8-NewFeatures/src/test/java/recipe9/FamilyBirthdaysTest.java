@@ -84,7 +84,6 @@ public class FamilyBirthdaysTest {
         joeBirthday = new FamilyBirthdays(joeMonth,joeDate);
     }
 
-
     @After
     public void tearDown() throws Exception {
 
