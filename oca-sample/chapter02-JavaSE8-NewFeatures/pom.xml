@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>org.o26.java.se8.student.guide</groupId>
-    <artifactId>chapter02</artifactId>
+    <artifactId>chapter02-JavaSE8-NewFeatures</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     

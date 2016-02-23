@@ -23,8 +23,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>chapter01</module>
-        <module>chapter02</module>
+        <module>chapter01-GettingStarted</module>
+        <module>chapter02-JavaSE8-NewFeatures</module>
     </modules>
 
     

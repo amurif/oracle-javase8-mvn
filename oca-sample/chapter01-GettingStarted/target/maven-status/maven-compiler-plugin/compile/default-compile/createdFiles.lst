@@ -1,1 +1,5 @@
 recipe1\HelloMessage.class
+recipe2\VariableVisibility.class
+recipe4\SimpleJavadoc.class
+recipe3\StringConversion.class
+recipe5\EnvironmentVariable.class

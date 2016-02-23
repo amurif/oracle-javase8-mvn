@@ -1,1 +1,5 @@
+recipe3\StringConversionTest.class
+recipe4\SimpleJavadocTest.class
+recipe2\VariableVisibilityTest.class
 recipe1\HelloMessageTest.class
+recipe5\EnvironmentVariableTest.class

@@ -7,20 +7,20 @@
     <property name="java.vm.version" value="25.74-b02"/>
     <property name="user.country.format" value="BE"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\workplace\oracle-javase8-mvn\oca-sample"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\workplace\oracle-javase8-mvn\oca-sample\chapter02-JavaSE8-NewFeatures"/>
     <property name="javax.xml.accessExternalSchema" value="all"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7534"/>
+    <property name="idea.launcher.port" value="7535"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\workplace\oracle-javase8-mvn\oca-sample"/>
+    <property name="user.dir" value="C:\workplace\oracle-javase8-mvn\oca-sample\chapter02-JavaSE8-NewFeatures"/>
     <property name="java.runtime.version" value="1.8.0_74-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed"/>

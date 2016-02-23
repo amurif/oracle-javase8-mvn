@@ -20,7 +20,13 @@ public interface Volume {
      * @return volume
      */
     default double calculateVolume(Double[] depthValues, Double[] measurementValues) {
-        double length, width, radius, minDepth, maxDepth, avgDepth = 0;
+        double length;
+        double width;
+        double radius;
+        double minDepth;
+        double maxDepth;
+        double avgDepth = 0;
+
         if (depthValues.length > 1) {
             minDepth = depthValues[0];
             maxDepth = depthValues[1];
@@ -42,5 +48,7 @@ public interface Volume {
         } else {
             return (radius * radius) * 3.14 * avgDepth;
         }
-    };
+    }
+
+    ;
 }
